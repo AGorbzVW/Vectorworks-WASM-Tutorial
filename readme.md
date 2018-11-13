@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-
-=======
-Live demo: https://timhutton.github.io/opengl-canvas-wasm/
->>>>>>> 81549544315530982c69b7ab49277fb69c221640
 
 Instructions:
 -------------
@@ -13,7 +8,6 @@ Instructions:
 
 2. Clone this repo:
 
-<<<<<<< HEAD
     ```git clone https://github.com/AGorbzVW/Vectorworks-WASM-Tutorial```
     
     ```Vectorworks-WASM-Tutorial```
@@ -34,19 +28,6 @@ Instructions:
      NOTE: This is only supported in builds of Firefox Nightly and Chrome Canary as of November 12, 2018.
 
 4. Open index.html in a web browser.
-=======
-    ```git clone https://github.com/timhutton/opengl-canvas-wasm.git```
-    
-    ```cd opengl-canvas-wasm```
-    
-3. Build index.js and index.wasm:
-
-    ```emcc main.cpp -std=c++11 -s WASM=1 -s USE_SDL=2 -O3 -o index.js```
-
-4. Open index.html in a web browser. You should see a colorful animated triangle:
-
-    <img width="400px" src="https://user-images.githubusercontent.com/647092/37932094-866c158e-313f-11e8-84f9-3873223373c5.png" />
->>>>>>> 81549544315530982c69b7ab49277fb69c221640
 
     Chrome doesn't support file:// XHR requests, so you need to first start a webserver:
 
