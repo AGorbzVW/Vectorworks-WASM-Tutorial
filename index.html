@@ -26,6 +26,24 @@
     <script type='text/javascript'>
         canv.addEventListener('click',    _toggle_background_color, false);
         canv.addEventListener('touchend', _toggle_background_color, false);
+        window.addEventListener('keydown', myEventHandler, false);
+
+        function myEventHandler(e){
+		    var keyCode = e.keyCode;
+		    if(keyCode == 88){
+		        _move_bar_two_down();
+		    }
+		    else if (keyCode == 87){
+		    	_move_bar_two_up();
+		    }
+
+		    if (keyCode == 40){
+		    	_move_bar_one_down();
+		    }
+		    else if (keyCode == 38){
+		    	_move_bar_one_up();
+		    }
+		};
     </script>
 
     <!-- Describe what the user is seeing -->
